@@ -3,8 +3,9 @@
     line-height: 1.5;
 }
 body {
-    margin: 0 auto;
     max-width: 600px;
+    width: 100vw;
+    margin: 0 auto;
     font-family: 'Smythe', cursive;
 } 
 
@@ -16,11 +17,6 @@ h1, h2, h4,h3,p{
     margin: 0;
     font-weight: lighter;
     
-}
-
-.container{
-    margin: 0 auto;
-    max-width: 600px;
 }
 
 .header{
