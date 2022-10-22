@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+body {
+    margin: 0 auto;
+    max-width: 600px;
+    font-family: 'Smythe', cursive;
+} 
+
+img{
+    width: 100%;
+}
+
+h1, h2, h4,h3,p{
+    margin: 0;
+    font-weight: lighter;
+    
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.header{
+    background: url('images/ferks-guare.png') no-repeat;
+    object-fit: cover;
+    color: #ffffff;
+    padding: 2em 1em;
+    font-size: 1.2rem;
+}
+
+.menu{
+    display: flex;
+    margin-top: 2em 0;
+    padding: 2em;
+    border-bottom: 1px solid #D2D2D2;
+    align-items: center;
+}
+
+.menu-icon{
+    max-width: 70px;
+    align-self: center;
+}
+.menu-item{
+    width: 100%;
+    margin-left: 1em;
+    
+}
+.add-btn{
+   align-self: center;
+   border-radius: 50%;
+   padding: .5em;
+   background:transparent;
+   margin-left: auto;
+   border: 1.5px solid #DEDEDE;
+   font-size: 1.5rem;
+   color: #3C3C3C;
+   font-family: inter;
+   font-weight: 900;
+   cursor: pointer;
+}
+
+/* order css */
+.order, .success-placeholder{
+    padding: 1em 2em;
+}
+
+.order-header{
+    text-align: center;
+    margin-block: 1em;
+    font-size: 1.2rem
+}
+
+.order-content{
+    display: flex;
+    margin-block: 1em;
+    padding-bottom: 1em;
+    align-items: center
+}
+.order-content:last-child{
+       border-bottom: 1px solid ;
+}
+.order-title{
+    font-size: 1.4rem;
+}
+.total-price{
+    display: flex;
+    margin-block: 1em;
+    font-size: 1.2rem;
+}
+.order-price, .total-amount{
+    margin-left: auto;
+}
+
+.remove-order{
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+    color: red;
+    margin-left: 10px;
+    letter-spacing: .1rem;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.order-btn{
+    width: 100%;
+    padding: 1em;
+    background: #16DB99;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;        
+}
+
+.model{
+    position: fixed;
+    max-width: 400px;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 1.2em;
+    color: black;
+    background: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 20px 20px 50px black;;
+    box-shadow: -15px -10px 55px black
+}
+.model-title{
+    height: 10%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.model form{
+    min-height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+input{
+    height: 51px;
+    border: 1.3px solid #757575;
+    border-radius: 4px;
+    text-indent: 1em;
+}
+.model button{
+    padding: 1em;
+    background: #16DB99;
+    border-radius: 3.88991px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.success-text{
+    text-align: center;
+    background: #ECFDF5;
+    border-radius: 3px;
+    border: 1px solid #ECFDF5;
+    padding: .7em;
+    color: #065F46;
+    font-size: 1.3rem
+}
+
+.discount-prop{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+footer{
+    
+    padding: 1em;
+    font-size: 1.5rem;
+    text-align: center;
+    background: lightgray;
+    color: rgba(0, 0, 0, 0.7)
+}
+.dark-mode-toggler{
+    font-size: 2rem;
+    display: flex;
+}
+.toggler{
+    align-self: right;
+    margin-left: auto;
+    margin-right: .5em;
+}
+
+.bg-main{
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.btn-dark{
+    color: white;
+}
