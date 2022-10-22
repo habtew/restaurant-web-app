@@ -50,6 +50,7 @@ function handleAdd(itemId){
         document.querySelector('.discount').classList.remove('hidden')
         document.querySelector('.discount').innerHTML = renderDIscount(array.length)
     }
+    
 }
 
 
@@ -69,7 +70,7 @@ function handleRemove(orderId){
 }
 
 function handleOrderCompletebtn(){
-    modalHolder.innerHTML = renderModel
+    modalHolder.innerHTML = renderModel()
     modalHolder.classList.remove('hidden')
 }
 
