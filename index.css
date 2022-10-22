@@ -1,13 +1,16 @@
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     line-height: 1.5;
 }
 body {
-    max-width: 600px;
-    width: 100vw;
-    margin: 0 auto;
     font-family: 'Smythe', cursive;
-} 
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
 img{
     width: 100%;
@@ -21,7 +24,7 @@ h1, h2, h4,h3,p{
 
 .header{
     background: url('images/ferks-guare.png') no-repeat;
-    object-fit: cover;
+    background-size: cover;
     color: #ffffff;
     padding: 2em 1em;
     font-size: 1.2rem;
@@ -203,3 +206,9 @@ footer{
 .btn-dark{
     color: white;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+  }
