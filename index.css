@@ -1,5 +1,5 @@
 *{
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     line-height: 1.5;
 }
 body {
@@ -8,7 +8,7 @@ body {
     
 }
 .container{
-    max-width: 550px;
+    max-width: 600px;
     width: 100vw;
 }
 
