@@ -3,13 +3,13 @@
     line-height: 1.5;
 }
 body {
+    margin: 0;
     font-family: 'Smythe', cursive;
     
 }
 .container{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    max-width: 550px;
+    width: 100vw;
 }
 
 img{
@@ -207,8 +207,9 @@ footer{
     color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 620px) {
     .container {
-      width: 100%;
+        width: 100%;
+        margin: 0 auto;
     }
   }
